@@ -19,7 +19,7 @@ public class Student {
     private String email;
     
     @ManyToOne
-    @JoinColumn(name = "departmentid")
+    @JoinColumn(name = "departmentid")  // foreign key
     private Department department;
 
     public Student() {}
